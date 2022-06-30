@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
  * main - prints the sizes of types
  * Return: 0 if executed properly
