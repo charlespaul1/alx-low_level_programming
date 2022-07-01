@@ -12,8 +12,8 @@ int main(void)
 
 	for (n = 0; n < 10; n++)
 	{
-		printf("%d", n);
+		write("%d", n);
 	}
-	printf("\n");
+	write("\n");
 	return (0);
 }
