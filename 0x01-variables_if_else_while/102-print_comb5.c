@@ -6,20 +6,27 @@
  */
 int main(void)
 {
-	int ch;
-	int n;
-	for (ch = 48; ch <= 57; ch++)
+	int a, b;
+
+	for (a = 0; a < 100; a++)
 	{
-		for (n = 48; n <= 57; n++)
+		for (b = 0; b < 100; b++)
 		{
-			putchar(ch);
-			putchar(n);
-			if (ch != 57 || n != 57)
+			if (a < b)
 			{
-				putchar(44);
-				putchar(32);
+			putchar((a / 10) + 48);
+			putchar((a % 10) + 48);
+			putchar(' ');
+			putchar((b / 10) + 48);
+			putchar((b % 10) + 48);
+			if (a != 98 || b != 99)
+			{
+				putchar(',');
+				putchar(' ');
+			}
 			}
 		}
 	}
+	putchar('\n');
 	return (0);
 }
