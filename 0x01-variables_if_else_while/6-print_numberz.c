@@ -9,12 +9,12 @@
  */
 int main(void)
 {
-	int n;
+	int ch;
 
-	for (n = 0; n < 10; n++)
+	for (ch = 48; n <= 57; ch++)
 	{
-		putchar("%d", n);
+		putchar(ch);
 	}
-	putchar("\n");
+	putchar(10);
 	return (0);
 }
