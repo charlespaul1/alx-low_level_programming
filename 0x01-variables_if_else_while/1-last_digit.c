@@ -4,7 +4,7 @@
 
 /**
  * main -> assign number to variable each time it is executed
- * Return : 0 as succesful
+ * Return: 0 as succesful
  */
 int main(void)
 {
