@@ -4,21 +4,21 @@
  */
 void jack_bauer(void)
 {
-	int m, j;
+	int i, j;
 
-	for (m = 0; m < 24; m++)
+	for (i = 0; i < 24; i++)
 	{
 		for (j = 0; j < 60; j++)
 		{
-			if (m < 10)
+			if (i < 10)
 			{
 				_putchar('0');
-				_putchar(m + '0');
+				_putchar(i + '0');
 			}
-			else if (m >= 10)
+			else if (i >= 10)
 			{
-				_putchar((m / 10) + '0');
-				_putchar((m % 10) + '0');
+				_putchar((i / 10) + '0');
+				_putchar((i % 10) + '0');
 			}
 			if (j < 10)
 			{
