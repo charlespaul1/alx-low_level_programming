@@ -1,1 +1,1 @@
-readme for nested loops
+a read me for nested conditions
