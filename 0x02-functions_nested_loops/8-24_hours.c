@@ -2,11 +2,13 @@
 /**
  * prints every minute of the day of Jack Bauer
  */
- void jack_bauer(void)
+void jack_bauer(void)
 {
 	int m, n;
+	
 	for (m = 0; m < 24; m++)
-	{
+
+{
 		for (n = 0; n < 60; n++)
 		{
 			if (m < 10)
