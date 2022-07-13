@@ -5,7 +5,7 @@
  * @x: string parameter
  * Return: string
  */
-char *string_toupper(char *)
+char *string_toupper(char *x)
 {
 	int = 0;
 
