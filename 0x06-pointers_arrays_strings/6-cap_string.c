@@ -22,6 +22,5 @@ char *cap_string(char *x)
 		}
 		a++;
 	}
-	_putchar('\n');
 	return (x);
 }
