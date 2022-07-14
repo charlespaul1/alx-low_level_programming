@@ -1,9 +1,5 @@
 #include <stdio.h>
-/**
- * main -> adding one line
- *
- * Return: 0
- */
+
 int main(void)
 {
 	int n;
@@ -13,8 +9,12 @@ int main(void)
 	a[2] = 1024;
 	p = &n;
 	/*
-	 * write your code here..
-	 * you ara not allowed to code anything else than this line
+	 * write your code here...
+	 * Remember:
+	 * - you are not allowed to use a
+	 * - you are not allowed to modify p
+	 * - only one statement
+	 * - you ara not allowed to code anything else than this line
 	 */
 	p[5] = 98;
 	/* so that it prints 98\n*/
