@@ -2,10 +2,10 @@
 
 /**
  * string_toupper -> converts string to uppercase
- * @x: string parameter
+ * @x: string param
  * Return: string
  */
-char *string_toupper(char *x)
+char *string_toupper(char *xi)
 {
 	int = 0;
 
