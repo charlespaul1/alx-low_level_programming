@@ -2,7 +2,7 @@
 
 /**
  * leet -> a leet function
- * @x: prameter x
+ * @x: parameter x
  * Return: a string
  */
 char *leet(char *x)
