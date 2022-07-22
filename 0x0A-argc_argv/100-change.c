@@ -29,7 +29,7 @@ int main(int argc, char *argv[])
 		while (num >= coins[j])
 		{
 			num -= coins[j];
-			resuilt++;
+			result++;
 		}
 	}
 	printf("%d\n", result);
