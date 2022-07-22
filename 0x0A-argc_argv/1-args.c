@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/***
+/**
  * main - a function that prints its name
  * @argc: arg param
  * @argv: an array of a command listed
