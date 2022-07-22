@@ -4,7 +4,7 @@
 /**
  * main - multiplies two numbers
  * @argc: argc parameter
- * @argv: an array 
+ * @argv: an array
  * Return: 0 when succesful
  */
 int main(int argc, char *argv[])
@@ -19,7 +19,6 @@ int main(int argc, char *argv[])
 	num1 = atoi(argv[1]);
 	num2 = atoi(argv[2]);
 	result = num1 * num2;
-	
 	printf("%d\n", result);
 	return (0);
 }
