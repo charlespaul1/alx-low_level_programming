@@ -6,7 +6,7 @@
  * @argv: an array of the command listed
  * Return: 0 as succesful
  */
-int main(int argc _attribute_((unused)), char *argv[])
+int main(int argc __attribute__((unused)), char *argv[])
 {
 	printf("%s\n", *argv);
 	return (0);
