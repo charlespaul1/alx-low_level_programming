@@ -31,12 +31,12 @@ int _strlen(char *str)
  */
 char *_strcopy(char *dest, char *src)
 {
-	int m = 0;
+	int index = 0;
 
-	for (m = 0; src[m]; m++)
-		dest[m] = src[m];
+	for (index = 0; src[index]; index++)
+		dest[index] = src[index];
 
-	dest[m] = '\0';
+	dest[index] = '\0';
 
 	return (dest);
 }
