@@ -9,9 +9,9 @@
  * Return: name
  */
 
-void print_name(char *name, void (*x)(char *));
+void print_name(char *name, void (*m)(char *));
 {
-	if (!name || !x)
+	if (!name || !m)
 		return;
-	x(name);
+	m(name);
 }
