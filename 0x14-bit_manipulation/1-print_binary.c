@@ -1,8 +1,9 @@
 #include "main.h"
- /**
-  * print_binary - converts decimal to binary
-  * @n: integer to convert
-  */
+/**
+ * print_binary - prints a number in binary
+ * @n: number to be changed to binary
+ * Return: void
+ */
 void print_binary(unsigned long int n)
 {
 	int i, flag;
