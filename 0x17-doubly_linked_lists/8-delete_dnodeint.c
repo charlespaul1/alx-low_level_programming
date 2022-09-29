@@ -2,8 +2,8 @@
 
 /**
  * delete_dnodeint_at_index - Deletes a node from a doubly-linked list at a
- * given index
- * @head: Address of a pointer pointing to the first node
+ * given index of the list
+ * @head: address of a pointer pointing to the first node
  * @index: The index of the node to be deleted
  *
  * Return: 1 on success, 0 on fail
