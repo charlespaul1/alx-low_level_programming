@@ -4,7 +4,7 @@
 /**
  * add_dnodeint - Adds a doubly-linked node to the beginning of a doubly-
  * linked list
- * @head: Pointer to a pointer which points to the first node
+ * @head: Pointer to a pointer which points to the first node of the list
  * @n: The value for the node to hold
  *
  * Return: The address of the new node
