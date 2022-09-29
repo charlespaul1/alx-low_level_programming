@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * sum_dlistint - Adds the value of all of the nodes in a doubly-linked list
+ * sum_dlistint - it adds the value of all of the nodes in a doubly-linked list
  * @head: Address of the first node in the list
  *
  * Return: The sum of all values
