@@ -6,7 +6,7 @@
  * @index: Index of the desired node
  *
  * Return: Address of the node at the given index, or NULL if it does not
- * exist
+ * exist in the list
  */
 dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
 {
