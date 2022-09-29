@@ -4,7 +4,7 @@
 /**
  * add_dnodeint_end - Adds a doubly-linked node to the end of a doubly-linked
  * list
- * @head: Pointer to a pointer which points to the first node
+ * @head: Pointer to a pointer which points to the first node of the list
  * @n: The value for the new node to have
  *
  * Return: Address of the new node
